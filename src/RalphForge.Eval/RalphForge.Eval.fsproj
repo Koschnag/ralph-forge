@@ -6,6 +6,7 @@
     <Compile Include="Smt.fs" />
     <Compile Include="Encode.fs" />
     <Compile Include="Gate.fs" />
+    <Compile Include="Render.fs" />
     <Compile Include="Examples.fs" />
     <Compile Include="Repair.fs" />
   </ItemGroup>
