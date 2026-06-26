@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Deterministic>true</Deterministic>
+    <!-- Mac hat nur net10-Runtime; net9-Targets per RollForward lokal lauffaehig. codespace laeuft nativ auf net9. -->
+    <RollForward>Major</RollForward>
   </PropertyGroup>
 
   <PropertyGroup Label="Metadata">
