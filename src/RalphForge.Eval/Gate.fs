@@ -96,3 +96,12 @@ let isConsecutionFailed =
     function
     | ConsecutionFailed _ -> true
     | _ -> false
+
+/// Human-readable rendering of a verdict (kept here so callers — incl. C# — never
+/// pattern-match the F# union directly).
+let describe (v: GateVerdict) : string =
+    match v with
+    | Verified -> "VERIFIED — invariant is inductive (initiation + consecution UNSAT)"
+    | InitiationFailed model -> $"INITIATION FAILED — the initial state violates the invariant\n{model}"
+    | ConsecutionFailed cti -> $"CONSECUTION FAILED — counterexample-to-induction:\n{cti}"
+    | SolverError reason -> $"SOLVER ERROR: {reason}"
