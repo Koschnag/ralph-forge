@@ -2,10 +2,16 @@
 
   <ItemGroup>
     <Compile Include="Contract.fs" />
+    <Compile Include="ExprParse.fs" />
     <Compile Include="Smt.fs" />
     <Compile Include="Encode.fs" />
     <Compile Include="Gate.fs" />
     <Compile Include="Examples.fs" />
+    <Compile Include="Repair.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FParsec" Version="1.1.1" />
   </ItemGroup>
 
 </Project>
