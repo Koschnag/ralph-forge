@@ -67,6 +67,12 @@ dotnet run --project src/RalphForge.Cli -- engine-check     # wraps `claude -p`,
 dotnet test                                                 # gate + engine self-tests
 ```
 
+## Development
+
+See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) — layout, the dev loop
+(`./scripts/dev.sh build|test|verify|loop`), how to extend (new domain, new
+operator, swap the engine), and running persistently on the homelab.
+
 ## Method
 
 The outer loop follows **Ralph** (Geoffrey Huntley): a fresh agent context per

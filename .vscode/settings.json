@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "dotnet.defaultSolution": "RalphForge.slnx",
+  "[fsharp]": {
+    "editor.defaultFormatter": "ionide.ionide-fsharp"
+  }
+}
