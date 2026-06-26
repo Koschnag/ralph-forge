@@ -1,7 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <Compile Include="Contract.fs" />
     <Compile Include="Smt.fs" />
+    <Compile Include="Encode.fs" />
+    <Compile Include="Gate.fs" />
+    <Compile Include="Examples.fs" />
   </ItemGroup>
 
 </Project>
