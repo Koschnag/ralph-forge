@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RalphForge.Cli/RalphForge.Cli.csproj" />
+    <Project Path="src/RalphForge.Core/RalphForge.Core.csproj" />
+    <Project Path="src/RalphForge.Eval/RalphForge.Eval.fsproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RalphForge.Tests/RalphForge.Tests.csproj" />
+  </Folder>
+</Solution>

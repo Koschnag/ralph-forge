@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\RalphForge.Eval\RalphForge.Eval.fsproj" />
+  </ItemGroup>
+
+</Project>
